@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: 100vh;
+    background: url(https://picsum.photos/id/237/1200/600);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.btn{
+    color:black;
+    background-color: white;    
+}
+.btn:hover{
+    background-color: bisque;
+}
+
+
+.card{
+    position: absolute;
+    width: 33%;
+    top: 10%;
+    background:url(https://picsum.photos/400/600) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 170px;
+    transition: all 2s;
+    opacity: 0;
+    z-index: 999;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gonder{
+    transform: translateY(170px);
+}
+
+::placeholder{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+i{
+    position: absolute;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.blur{
+    filter: blur(3px) brightness(80%);
+    
+}
